@@ -1,0 +1,83 @@
+<resources>
+    <string name="app_name">Device</string>
+
+    <string name="home">首页</string>
+    <string name="data">数据</string>
+    <string name="person">个人</string>
+
+    <string name="home_title">检测</string>
+    <string name="data_title">历史数据</string>
+    <string name="person_title">个人中心</string>
+
+    <string name="deviceID">设备号</string>
+    <string name="firmware_version">固件版本</string>
+    <string name="battery_remaining">电量剩余</string>
+    <string name="Dfree_connection">设备连接</string>
+
+    <string name="home_hint">
+        尿量已达到通知阈值\n
+        请尽快到洗手间
+    </string>
+
+    <string name="show_today">返回今天</string>
+    <string name="urinary_statistics">尿量</string>
+    <string name="statistical_chart_of_water_intake">摄水量</string>
+    <string name="adding_water_intake">添加摄水量</string>
+
+    <string name="allow_notification">允许通知</string>
+    <string name="notify_recurrently_interval_between_notifications">
+        通知时间间隔为
+    </string>
+    <string name="minutes">%d分钟</string>
+    <string name="notify_when_battery_needs_to_be_recharged">电量不足时通知</string>
+    <string name="notify_when_urinary_volume_exceeds_the_notification_threshold">
+        当尿量超过通知阈值时通知
+    </string>
+    <string name="notify_when_urinary_volume_does_not_change_over_time">
+        当尿量不随时间变化时通知
+    </string>
+
+    <string name="name">姓名</string>
+    <string name="age">年龄</string>
+    <string name="gender">性别</string>
+    <string name="threshold">阈值</string>
+    <string name="man">男</string>
+    <string name="women">女</string>
+    <string name="editing_information">编辑信息</string>
+
+    <string name="tutorial">使用方法</string>
+    <string name="tutorial_text_1_1">关于设备</string>
+    <string name="tutorial_text_1_2">
+        设备使用超声波传感器来监测\n
+        膀胱的扩张
+    </string>
+    <string name="tutorial_text_2_1">膀胱指示器</string>
+    <string name="tutorial_text_2_2">拿起传感器</string>
+    <string name="tutorial_text_2_3">
+        慢慢拿起传感器\n
+        直到膀胱指示蓝光闪烁两次
+    </string>
+
+    <string name="login">登录</string>
+    <string name="commit">提交</string>
+    <string name="phone_number">手机号码</string>
+    <string name="verification_code">验证码</string>
+    <string name="get_verification_code">获取验证码</string>
+    <string name="registry">注册</string>
+    <string name="existing_account_direct_login">已有账号，直接登录</string>
+    <string name="not_yet_registered_go_to_register">还未注册？去注册</string>
+    <string name="wifi">Wifi</string>
+
+    <string name="networking">网络</string>
+    <string name="about">关于</string>
+    <string name="log_out">退出登录</string>
+
+    <string name="password">密码</string>
+
+    <string name="water_intake">摄水量(ml)</string>
+    <string name="urinary_volume">当前尿量：%d ml</string>
+    <string name="finish">完成设置</string>
+    <string name="next_step">下一步</string>
+    <string name="height">身高(cm)</string>
+    <string name="weight">体重(kg)</string>
+</resources>

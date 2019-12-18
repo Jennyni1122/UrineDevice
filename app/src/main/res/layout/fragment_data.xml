@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+        <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:gravity="center_horizontal">
+
+            <LinearLayout
+                    android:id="@+id/llDate"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="20dp"
+                    android:orientation="horizontal">
+
+                <androidx.appcompat.widget.AppCompatButton
+                        android:id="@+id/bDate"
+                        android:layout_width="230dp"
+                        android:layout_height="40dp"
+                        android:background="@drawable/bg_date"
+                        android:textSize="@dimen/text_size_normal"
+                        android:textColor="@color/colorPrimary"/>
+
+                <androidx.appcompat.widget.AppCompatButton
+                        android:id="@+id/bToday"
+                        android:layout_width="110dp"
+                        android:layout_height="40dp"
+                        android:background="@drawable/bg_date2"
+                        android:textSize="@dimen/text_size_normal"
+                        android:textColor="@android:color/white"
+                        android:text="@string/show_today"/>
+            </LinearLayout>
+
+            <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="20dp"
+                    android:layout_marginTop="50dp"
+                    android:orientation="horizontal"
+                    android:gravity="end|center_vertical">
+
+                <androidx.appcompat.widget.AppCompatTextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="@dimen/text_size_normal"
+                        android:textColor="@color/text_color"
+                        android:text="@string/urinary_statistics"/>
+
+                <View
+                        android:layout_width="14dp"
+                        android:layout_height="14dp"
+                        android:layout_marginLeft="5dp"
+                        android:background="@color/colorPrimary"/>
+
+                <androidx.appcompat.widget.AppCompatTextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="18dp"
+                        android:textSize="@dimen/text_size_normal"
+                        android:textColor="@color/text_color"
+                        android:text="@string/statistical_chart_of_water_intake"/>
+
+                <View
+                        android:layout_width="14dp"
+                        android:layout_height="14dp"
+                        android:layout_marginLeft="5dp"
+                        android:background="@color/colorPrimary2"/>
+            </LinearLayout>
+
+            <com.github.mikephil.charting.charts.CombinedChart
+                    android:id="@+id/lineChart"
+                    android:layout_width="match_parent"
+                    android:layout_height="220dp"
+                    android:layout_marginLeft="4dp"
+                    android:layout_marginRight="4dp"
+                    android:layout_marginTop="50dp"/>
+
+            <androidx.appcompat.widget.AppCompatButton
+                    android:id="@+id/bAdd"
+                    android:layout_width="300dp"
+                    android:layout_height="40dp"
+                    android:layout_marginTop="60dp"
+                    android:layout_marginBottom="20dp"
+                    android:background="@drawable/bg_button"
+                    android:textColor="@color/colorPrimary"
+                    android:text="@string/adding_water_intake"/>
+        </LinearLayout>
+
+        <DatePicker
+                android:id="@+id/dp"
+                android:visibility="gone"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="64dp"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintRight_toRightOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/llDate"
+                android:background="@android:color/white"/>
+    </FrameLayout>
+</ScrollView>

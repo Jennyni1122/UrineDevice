@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:orientation="vertical"
+        android:gravity="center_horizontal">
+
+    <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/action_bar_height"
+            android:orientation="horizontal"
+            android:gravity="center_vertical"
+            android:background="@color/colorPrimary">
+
+        <androidx.appcompat.widget.AppCompatTextView
+                android:id="@+id/tvTitle"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:textSize="@dimen/text_size_big"
+                android:textColor="@android:color/white"/>
+    </LinearLayout>
+
+    <LinearLayout
+            android:layout_width="220dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="120dp"
+            android:orientation="vertical">
+
+        <androidx.appcompat.widget.AppCompatEditText
+                android:id="@+id/etName"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingTop="12dp"
+                android:paddingBottom="12dp"
+                android:background="@null"
+                android:inputType="text"
+                android:lines="1"
+                android:textSize="@dimen/text_size_normal"
+                android:textColorHint="@color/text_hint_color"
+                android:textColor="@color/text_color"
+                android:hint="@string/name"/>
+
+        <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@color/colorPrimary"/>
+
+        <androidx.appcompat.widget.AppCompatEditText
+                android:id="@+id/etAge"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="18dp"
+                android:paddingTop="12dp"
+                android:paddingBottom="12dp"
+                android:background="@null"
+                android:inputType="numberDecimal"
+                android:textSize="@dimen/text_size_normal"
+                android:textColorHint="@color/text_hint_color"
+                android:textColor="@color/text_color"
+                android:hint="@string/age"/>
+
+        <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@color/colorPrimary"/>
+
+        <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="3dp"
+                android:orientation="horizontal"
+                android:gravity="center_vertical">
+
+            <androidx.appcompat.widget.AppCompatTextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="@dimen/text_size_normal"
+                    android:textColor="@color/text_hint_color"
+                    android:text="@string/gender"/>
+
+            <Space
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"/>
+
+            <androidx.appcompat.widget.AppCompatImageView
+                    android:id="@+id/ivMan"
+                    android:layout_width="44dp"
+                    android:layout_height="44dp"
+                    android:layout_margin="10dp"
+                    app:srcCompat="@drawable/ic_man"/>
+
+            <androidx.appcompat.widget.AppCompatImageView
+                    android:id="@+id/ivWoman"
+                    android:layout_width="44dp"
+                    android:layout_height="44dp"
+                    android:layout_margin="10dp"
+                    app:srcCompat="@drawable/ic_woman"/>
+        </LinearLayout>
+
+        <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@color/colorPrimary"/>
+
+        <androidx.appcompat.widget.AppCompatEditText
+                android:id="@+id/etHeight"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="18dp"
+                android:paddingTop="12dp"
+                android:paddingBottom="12dp"
+                android:background="@null"
+                android:inputType="number"
+                android:textSize="@dimen/text_size_normal"
+                android:textColorHint="@color/text_hint_color"
+                android:textColor="@color/text_color"
+                android:hint="@string/height"/>
+
+        <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@color/colorPrimary"/>
+
+        <androidx.appcompat.widget.AppCompatEditText
+                android:id="@+id/etWeight"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="18dp"
+                android:paddingTop="12dp"
+                android:paddingBottom="12dp"
+                android:background="@null"
+                android:inputType="number"
+                android:textSize="@dimen/text_size_normal"
+                android:textColorHint="@color/text_hint_color"
+                android:textColor="@color/text_color"
+                android:hint="@string/weight"/>
+
+        <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@color/colorPrimary"/>
+
+        <androidx.appcompat.widget.AppCompatEditText
+                android:id="@+id/etThreshold"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="18dp"
+                android:paddingTop="12dp"
+                android:paddingBottom="12dp"
+                android:background="@null"
+                android:inputType="numberDecimal"
+                android:textSize="@dimen/text_size_normal"
+                android:textColorHint="@color/text_hint_color"
+                android:textColor="@color/text_color"
+                android:hint="@string/threshold"/>
+        <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@color/colorPrimary"/>
+    </LinearLayout>
+
+    <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/bCommit"
+            android:layout_width="200dp"
+            android:layout_height="40dp"
+            android:layout_marginTop="100dp"
+            android:background="@drawable/bg_button"
+            android:textColor="@color/colorPrimary"
+            android:text="@string/commit"/>
+</LinearLayout>

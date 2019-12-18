@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="swipe_width">50dp</dimen>
+    <dimen name="swipe_height">85dp</dimen>
+
+    <dimen name="action_bar_height">44dp</dimen>
+
+    <dimen name="text_size_micro">10sp</dimen>
+    <dimen name="text_size_small">12sp</dimen>
+    <dimen name="text_size_normal">14sp</dimen>
+    <dimen name="text_size_big">16sp</dimen>
+
+    <dimen name="fixed_label_active">12sp</dimen>
+    <dimen name="fixed_height_bottom_padding">7dp</dimen>
+</resources>

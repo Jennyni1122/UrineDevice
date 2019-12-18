@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#23C5A3</color>
+    <color name="colorPrimary2">#F88C27</color>
+    <color name="colorPrimaryDark">#23C5A3</color>
+    <color name="colorAccent">#FFBE82</color>
+
+    <color name="text_color">#4D4D4D</color>
+    <color name="text_color_light">#999999</color>
+    <color name="text_hint_color">#CCCCCC</color>
+    <color name="line_color">#EDEDED</color>
+    <color name="text_color_red">#FC8B8B</color>
+</resources>

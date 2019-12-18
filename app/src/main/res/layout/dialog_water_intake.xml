@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+    <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_centerHorizontal="true"
+            android:orientation="vertical"
+            android:gravity="center_horizontal"
+            android:background="#ffffff">
+
+        <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="20dp"
+                android:gravity="center"
+                android:textSize="20dp"
+                android:textColor="#000000"
+                android:text="@string/water_intake"/>
+
+        <EditText
+                android:id="@+id/et"
+                android:layout_width="match_parent"
+                android:layout_height="45dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
+                android:layout_marginTop="25dp"
+                android:gravity="center"
+                android:background="@drawable/editbox_bkg"
+                android:inputType="numberDecimal"
+                android:singleLine="true"
+                android:maxEms="4"
+                android:textSize="18dp"
+                android:textColor="#000000"/>
+
+        <TimePicker
+                android:id="@+id/tp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30dp"
+                android:timePickerMode="spinner"/>
+
+        <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="30dp"
+                android:orientation="horizontal">
+
+            <TextView
+                    android:id="@+id/bNegative"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:background="@drawable/button_selectordialog_gray"
+                    android:clickable="true"
+                    android:textSize="14dp"
+                    android:textColor="#000000"
+                    android:text="取消"/>
+
+            <TextView
+                    android:id="@+id/bPositive"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:background="@drawable/button_selectordialog_green"
+                    android:clickable="true"
+                    android:textSize="14dp"
+                    android:textColor="#000000"
+                    android:text="确定"/>
+        </LinearLayout>
+    </LinearLayout>
+</RelativeLayout>

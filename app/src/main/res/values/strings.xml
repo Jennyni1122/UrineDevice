@@ -1,0 +1,86 @@
+<resources>
+    <string name="app_name">Device</string>
+
+    <string name="home">Home Page</string>
+    <string name="data">Data</string>
+    <string name="person">Personal</string>
+
+    <string name="home_title">Monitor</string>
+    <string name="data_title">History Data</string>
+    <string name="person_title">Personal Center</string>
+
+    <string name="deviceID">DeviceID</string>
+    <string name="firmware_version">Firmware version</string>
+    <string name="battery_remaining">Battery remaining</string>
+    <string name="Dfree_connection">Dfree connection</string>
+
+    <string name="home_hint">
+        Urine volume has reached the\n
+        notification threshold.\n
+        Please visit the bathroom.
+    </string>
+
+    <string name="show_today">Today</string>
+    <string name="urinary_statistics">Urine Volume</string>
+    <string name="statistical_chart_of_water_intake">Water Intake</string>
+    <string name="adding_water_intake">Add</string>
+
+    <string name="allow_notification">Allow notifications</string>
+    <string name="notify_recurrently_interval_between_notifications">
+        Notification interval
+    </string>
+    <string name="minutes">%d mins</string>
+    <string name="notify_when_battery_needs_to_be_recharged">Notify when battery needs to be charged</string>
+    <string name="notify_when_urinary_volume_exceeds_the_notification_threshold">
+        Notify when urine volume reaches the notification threshold
+    </string>
+    <string name="notify_when_urinary_volume_does_not_change_over_time">
+        Notify when urine volume does not change over time
+    </string>
+
+    <string name="name">Name</string>
+    <string name="age">Age</string>
+    <string name="gender">Gender</string>
+    <string name="threshold">Notification threshold</string>
+    <string name="man">Male</string>
+    <string name="women">Female</string>
+    <string name="editing_information">Editing information</string>
+
+    <string name="tutorial">User Manual</string>
+    <string name="tutorial_text_1_1">About Dfree Device</string>
+    <string name="tutorial_text_1_2">
+        Dfree device uses ultrasound\n
+        sensor to monitor thr
+        expansion of your bladder
+    </string>
+    <string name="tutorial_text_2_1">Bladder indicator</string>
+    <string name="tutorial_text_2_2">Raise the sensor</string>
+    <string name="tutorial_text_2_3">
+        Slowly raise the sensor until\n
+        the bladder indicator flashes\n
+        blue twice
+    </string>
+
+    <string name="login">Sign in</string>
+    <string name="commit">Commit</string>
+    <string name="phone_number">Phone number</string>
+    <string name="verification_code">Verification code</string>
+    <string name="get_verification_code">Get verification code</string>
+    <string name="registry">registry</string>
+    <string name="existing_account_direct_login">Existing account,direct login</string>
+    <string name="not_yet_registered_go_to_register">Not yet registered? Go to register</string>
+    <string name="wifi">Wifi</string>
+
+    <string name="networking">LAN</string>
+    <string name="about">About</string>
+    <string name="log_out">Log out</string>
+
+    <string name="password">password</string>
+
+    <string name="water_intake">water intake(ml)</string>
+    <string name="urinary_volume">Urine Volume：%d ml</string>
+    <string name="finish">Finish</string>
+    <string name="next_step">Next Step</string>
+    <string name="height">Height(cm)</string>
+    <string name="weight">Weight(kg)</string>
+</resources>

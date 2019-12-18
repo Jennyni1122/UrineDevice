@@ -1,0 +1,610 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scrollbars="vertical"
+        android:fadingEdge="vertical">
+
+    <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:gravity="center_horizontal">
+
+        <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:padding="10dp"
+                android:orientation="horizontal"
+                android:gravity="center_vertical"
+                android:background="@android:color/white">
+
+            <androidx.appcompat.widget.AppCompatTextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="@dimen/text_size_normal"
+                    android:textColor="@color/text_color"
+                    android:text="@string/name"/>
+
+            <Space
+                    android:layout_width="0dp"
+                    android:layout_height="0dp"
+                    android:layout_weight="1"/>
+
+            <androidx.appcompat.widget.AppCompatTextView
+                    android:id="@+id/tvName"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="@dimen/text_size_normal"
+                    android:textColor="@color/text_color_light"/>
+        </LinearLayout>
+
+        <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@color/line_color"/>
+
+        <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:padding="10dp"
+                android:orientation="horizontal"
+                android:gravity="center_vertical"
+                android:background="@android:color/white">
+
+            <androidx.appcompat.widget.AppCompatTextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="@dimen/text_size_normal"
+                    android:textColor="@color/text_color"
+                    android:text="@string/age"/>
+
+            <Space
+                    android:layout_width="0dp"
+                    android:layout_height="0dp"
+                    android:layout_weight="0.5"/>
+
+            <androidx.appcompat.widget.AppCompatTextView
+                    android:id="@+id/tvAge"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="@dimen/text_size_normal"
+                    android:textColor="@color/text_color_light"/>
+        </LinearLayout>
+
+        <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@color/line_color"/>
+
+        <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:padding="10dp"
+                android:orientation="horizontal"
+                android:gravity="center_vertical"
+                android:background="@android:color/white">
+
+            <androidx.appcompat.widget.AppCompatTextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="@dimen/text_size_normal"
+                    android:textColor="@color/text_color"
+                    android:text="@string/gender"/>
+
+            <Space
+                    android:layout_width="0dp"
+                    android:layout_height="0dp"
+                    android:layout_weight="0.5"/>
+
+            <androidx.appcompat.widget.AppCompatTextView
+                    android:id="@+id/tvGender"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="@dimen/text_size_normal"
+                    android:textColor="@color/text_color_light"/>
+        </LinearLayout>
+
+        <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@color/line_color"/>
+
+        <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:padding="10dp"
+                android:orientation="horizontal"
+                android:gravity="center_vertical"
+                android:background="@android:color/white">
+
+            <androidx.appcompat.widget.AppCompatTextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="@dimen/text_size_normal"
+                    android:textColor="@color/text_color"
+                    android:text="@string/height"/>
+
+            <Space
+                    android:layout_width="0dp"
+                    android:layout_height="0dp"
+                    android:layout_weight="0.5"/>
+
+            <androidx.appcompat.widget.AppCompatTextView
+                    android:id="@+id/tvHeight"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="@dimen/text_size_normal"
+                    android:textColor="@color/text_color_light"/>
+        </LinearLayout>
+
+        <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@color/line_color"/>
+
+        <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:padding="10dp"
+                android:orientation="horizontal"
+                android:gravity="center_vertical"
+                android:background="@android:color/white">
+
+            <androidx.appcompat.widget.AppCompatTextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="@dimen/text_size_normal"
+                    android:textColor="@color/text_color"
+                    android:text="@string/weight"/>
+
+            <Space
+                    android:layout_width="0dp"
+                    android:layout_height="0dp"
+                    android:layout_weight="0.5"/>
+
+            <androidx.appcompat.widget.AppCompatTextView
+                    android:id="@+id/tvWeight"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="@dimen/text_size_normal"
+                    android:textColor="@color/text_color_light"/>
+        </LinearLayout>
+
+        <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@color/line_color"/>
+
+        <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:padding="10dp"
+                android:orientation="horizontal"
+                android:gravity="center_vertical"
+                android:background="@android:color/white">
+
+            <androidx.appcompat.widget.AppCompatTextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="@dimen/text_size_normal"
+                    android:textColor="@color/text_color"
+                    android:text="BMI"/>
+
+            <Space
+                    android:layout_width="0dp"
+                    android:layout_height="0dp"
+                    android:layout_weight="0.5"/>
+
+            <androidx.appcompat.widget.AppCompatTextView
+                    android:id="@+id/tvBmi"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="@dimen/text_size_normal"
+                    android:textColor="@color/text_color_light"/>
+        </LinearLayout>
+
+        <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@color/line_color"/>
+
+        <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:padding="10dp"
+                android:orientation="horizontal"
+                android:gravity="center_vertical"
+                android:background="@android:color/white">
+
+            <androidx.appcompat.widget.AppCompatTextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="@dimen/text_size_normal"
+                    android:textColor="@color/text_color"
+                    android:text="@string/threshold"/>
+
+            <Space
+                    android:layout_width="0dp"
+                    android:layout_height="0dp"
+                    android:layout_weight="0.5"/>
+
+            <androidx.appcompat.widget.AppCompatTextView
+                    android:id="@+id/tvThreshold"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="@dimen/text_size_normal"
+                    android:textColor="@color/text_color_light"/>
+        </LinearLayout>
+
+        <View
+                android:layout_width="match_parent"
+                android:layout_height="4dp"
+                android:background="@color/line_color"/>
+
+
+        <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:padding="10dp"
+                android:orientation="horizontal"
+                android:gravity="center_vertical"
+                android:background="@android:color/white">
+
+            <androidx.appcompat.widget.AppCompatTextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="@dimen/text_size_normal"
+                    android:textColor="@color/text_color"
+                    android:text="@string/allow_notification"/>
+
+            <Space
+                    android:layout_width="0dp"
+                    android:layout_height="0dp"
+                    android:layout_weight="0.5"/>
+
+            <androidx.appcompat.widget.SwitchCompat
+                    android:id="@+id/sAll"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    app:track="@drawable/track_selector"
+                    android:thumb="@drawable/thumb_selector"
+                    app:theme="@style/switchStyle"/>
+        </LinearLayout>
+
+        <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@color/line_color"/>
+
+        <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:padding="10dp"
+                android:orientation="horizontal"
+                android:gravity="center_vertical"
+                android:background="@android:color/white">
+
+            <androidx.appcompat.widget.AppCompatTextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="@dimen/text_size_normal"
+                    android:textColor="@color/text_color"
+                    android:text="@string/notify_recurrently_interval_between_notifications"/>
+
+            <Space
+                    android:layout_width="0dp"
+                    android:layout_height="0dp"
+                    android:layout_weight="0.5"/>
+
+            <androidx.appcompat.widget.SwitchCompat
+                    android:id="@+id/sInterval"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    app:track="@drawable/track_selector"
+                    android:thumb="@drawable/thumb_selector"
+                    app:theme="@style/switchStyle"/>
+        </LinearLayout>
+
+        <LinearLayout
+                android:id="@+id/verticalStrLayout"
+                android:visibility="gone"
+                android:layout_width="match_parent"
+                android:layout_height="18dp">
+
+            <androidx.appcompat.widget.AppCompatTextView
+                    android:id="@+id/verticalStr"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@android:color/white"
+                    android:textAlignment="center"
+            />
+        </LinearLayout>
+
+        <LinearLayout
+                android:id="@+id/llRadio"
+                android:visibility="gone"
+                android:layout_width="match_parent"
+                android:layout_height="20dp"
+                android:paddingLeft="20dp"
+                android:paddingRight="20dp"
+                android:orientation="horizontal"
+                android:gravity="center_vertical"
+                android:background="@android:color/white">
+
+            <androidx.appcompat.widget.AppCompatImageView
+                    android:id="@+id/interv_sub"
+                    android:layout_width="15dp"
+                    android:layout_height="15dp"
+                    android:orientation="horizontal"
+                    app:srcCompat="@mipmap/ic_sub"/>
+
+            <RelativeLayout
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1">
+
+                <androidx.appcompat.widget.AppCompatSeekBar
+                        android:id="@+id/seeBar"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginRight="5dp"
+                        android:paddingTop="0dp"
+                        android:max="60"
+                        android:min="5"/>
+            </RelativeLayout>
+
+            <androidx.appcompat.widget.AppCompatImageView
+                    android:id="@+id/interval_add"
+                    android:layout_width="15dp"
+                    android:layout_height="15dp"
+                    app:srcCompat="@mipmap/ic_add"/>
+
+        </LinearLayout>
+
+        <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@color/line_color"/>
+
+        <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:padding="10dp"
+                android:orientation="horizontal"
+                android:gravity="center_vertical"
+                android:background="@android:color/white">
+
+            <androidx.appcompat.widget.AppCompatTextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="@dimen/text_size_normal"
+                    android:textColor="@color/text_color"
+                    android:text="@string/notify_when_battery_needs_to_be_recharged"/>
+
+            <Space
+                    android:layout_width="0dp"
+                    android:layout_height="0dp"
+                    android:layout_weight="0.5"/>
+
+            <androidx.appcompat.widget.SwitchCompat
+                    android:id="@+id/sBattery"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    app:track="@drawable/track_selector"
+                    android:thumb="@drawable/thumb_selector"
+                    app:theme="@style/switchStyle"/>
+        </LinearLayout>
+
+        <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@color/line_color"/>
+
+        <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:padding="10dp"
+                android:orientation="horizontal"
+                android:gravity="center_vertical"
+                android:background="@android:color/white">
+
+            <androidx.appcompat.widget.AppCompatTextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="@dimen/text_size_normal"
+                    android:textColor="@color/text_color"
+                    android:text="@string/notify_when_urinary_volume_exceeds_the_notification_threshold"/>
+
+            <Space
+                    android:layout_width="0dp"
+                    android:layout_height="0dp"
+                    android:layout_weight="0.5"/>
+
+            <androidx.appcompat.widget.SwitchCompat
+                    android:id="@+id/sUrinary"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    app:track="@drawable/track_selector"
+                    android:thumb="@drawable/thumb_selector"
+                    app:theme="@style/switchStyle"/>
+        </LinearLayout>
+
+        <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@color/line_color"/>
+
+        <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:padding="10dp"
+                android:orientation="horizontal"
+                android:gravity="center_vertical"
+                android:background="@android:color/white">
+
+            <androidx.appcompat.widget.AppCompatTextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="@dimen/text_size_normal"
+                    android:textColor="@color/text_color"
+                    android:text="@string/notify_when_urinary_volume_does_not_change_over_time"/>
+
+            <Space
+                    android:layout_width="0dp"
+                    android:layout_height="0dp"
+                    android:layout_weight="0.5"/>
+
+            <androidx.appcompat.widget.SwitchCompat
+                    android:id="@+id/sChange"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    app:track="@drawable/track_selector"
+                    android:thumb="@drawable/thumb_selector"
+                    app:theme="@style/switchStyle"/>
+        </LinearLayout>
+
+        <View
+                android:layout_width="match_parent"
+                android:layout_height="4dp"
+                android:background="@color/line_color"/>
+
+        <LinearLayout
+                android:id="@+id/bNetwork"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:padding="10dp"
+                android:orientation="horizontal"
+                android:gravity="center_vertical"
+                android:background="@android:color/white">
+
+            <androidx.appcompat.widget.AppCompatTextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="@dimen/text_size_normal"
+                    android:textColor="@color/text_color"
+                    android:text="WIFI"/>
+
+            <Space
+                    android:layout_width="0dp"
+                    android:layout_height="0dp"
+                    android:layout_weight="0.5"/>
+
+            <androidx.appcompat.widget.AppCompatImageView
+                    android:layout_width="21dp"
+                    android:layout_height="21dp"
+                    app:srcCompat="@mipmap/ic_go"/>
+        </LinearLayout>
+
+        <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@color/line_color"/>
+
+        <LinearLayout
+                android:id="@+id/bBluetooth"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:padding="10dp"
+                android:orientation="horizontal"
+                android:gravity="center_vertical"
+                android:background="@android:color/white">
+
+            <androidx.appcompat.widget.AppCompatTextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="@dimen/text_size_normal"
+                    android:textColor="@color/text_color"
+                    android:text="蓝牙"/>
+
+            <Space
+                    android:layout_width="0dp"
+                    android:layout_height="0dp"
+                    android:layout_weight="0.5"/>
+
+            <androidx.appcompat.widget.AppCompatImageView
+                    android:layout_width="21dp"
+                    android:layout_height="21dp"
+                    app:srcCompat="@mipmap/ic_go"/>
+        </LinearLayout>
+
+        <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@color/line_color"/>
+
+        <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:padding="10dp"
+                android:orientation="horizontal"
+                android:gravity="center_vertical"
+                android:background="@android:color/white">
+
+            <androidx.appcompat.widget.AppCompatTextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="@dimen/text_size_normal"
+                    android:textColor="@color/text_color"
+                    android:text="帮助"/>
+
+            <Space
+                    android:layout_width="0dp"
+                    android:layout_height="0dp"
+                    android:layout_weight="0.5"/>
+        </LinearLayout>
+
+        <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@color/line_color"/>
+
+        <LinearLayout
+                android:id="@+id/bAbout"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:padding="10dp"
+                android:orientation="horizontal"
+                android:gravity="center_vertical"
+                android:background="@android:color/white">
+
+            <androidx.appcompat.widget.AppCompatTextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="@dimen/text_size_normal"
+                    android:textColor="@color/text_color"
+                    android:text="关于"/>
+
+            <Space
+                    android:layout_width="0dp"
+                    android:layout_height="0dp"
+                    android:layout_weight="0.5"/>
+
+            <androidx.appcompat.widget.AppCompatImageView
+                    android:layout_width="21dp"
+                    android:layout_height="21dp"
+                    app:srcCompat="@mipmap/ic_go"/>
+        </LinearLayout>
+
+        <View
+                android:layout_width="match_parent"
+                android:layout_height="4dp"
+                android:background="@color/line_color"/>
+
+        <androidx.appcompat.widget.AppCompatTextView
+                android:id="@+id/bLogout"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:gravity="center"
+                android:background="@android:color/white"
+                android:textSize="@dimen/text_size_normal"
+                android:textColor="@color/text_color_red"
+                android:text="@string/log_out"/>
+
+    </LinearLayout>
+
+</ScrollView>
